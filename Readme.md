@@ -15,6 +15,7 @@ After including <tt>I18n.js</tt> you need to initialize it:
     I18n.init(config)
 
 Init function receives a configuration object with these options:
+
 * locales: array of available locales
 * translations: object containing translation objects for each locale
 * defaultLocale [optional]: locale used for defining translations, defaults to the first locale in locales array
@@ -26,6 +27,7 @@ Init function receives a configuration object with these options:
 # Usage
 
 I18n can be used for:
+
 * translation of raw strings
 * translation of strings with parameters
 * translation of string based on language plural rules
